@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gcrc-visual-token-communication"
+version = "0.1.0"
+description = "Source-only reference implementation of GCR-C for visual-token communication"
+readme = "README.md"
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["gcrc*"]
